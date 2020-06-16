@@ -253,3 +253,60 @@ padding: 30px 0;
     margin: 10px 0;
 }
 
+/*Contact PAge*/
+#contact
+{
+    padding-top: 30px;
+}
+#contact h1
+{
+    font-size: 40px;
+}
+#form label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+#form .form-group
+{
+    margin-bottom: 20px;
+}
+
+#form input
+{
+    border: 1px solid #ccc;
+    outline: 0;
+    padding:10px;
+    width: 100%;
+}
+#form input:focus
+{
+    border-color:var(--layout-color);
+}
+.form-group textarea
+{
+    border: 1px solid #ccc;
+    outline: 0;
+    width: 100%;
+    height: 152px;
+    padding: 10px;
+}
+.form-group textarea:focus
+{
+    border-color:var(--layout-color);
+}
+#form button
+{
+    border: 1px solid #333;
+    color: white;
+    background: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+#form button:hover
+{
+    background: var(--layout-color);
+    border-color: var(--layout-color);
+    color: #333333;
+    cursor: pointer;
+}
