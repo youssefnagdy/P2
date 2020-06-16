@@ -14,7 +14,7 @@
 html,body
 {
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
 a{color:#333333;text-decoration: none}
@@ -27,6 +27,19 @@ p{margin: 10px 0;}
     margin: auto;
     overflow: auto;
     padding: 0 20px;
+}
+.bg-dark
+{
+    background: #333333;
+    color: white;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.clear
+{
+    clear: both;
 }
 /*Navbar*/
 #nav
@@ -106,4 +119,72 @@ p{margin: 10px 0;}
 {
     background: var(--layout-color);
     color: #333;
+}
+#home-info
+{
+    height: 400px;
+}
+#home-info .img-side
+{
+    width: 50%;
+    float: left;
+    background: url("../images/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+#home-info .content-side
+{
+    width: 50%;
+    float: right;
+     height: 100%;
+     text-align: center;
+     overflow: hidden;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .content-side p
+{
+    padding-bottom: 30px;
+}
+#home-info .content-side a
+{
+    display: inline-block;
+    font-size: 18px;
+    color: #333333;
+    background:#fff;
+    padding: 13px 20px;
+    border: none;
+}
+#home-info .content-side a:hover {
+    background: var(--layout-color);
+    color: #333;
+}
+/*Features Section*/
+.box
+{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding:50px;
+}
+.box i
+{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.box p
+{
+    line-height: 1.7em;
+    font-size: 17px;
+}
+.box:nth-last-of-type(2)
+{
+    background: var(--layout-color);
+}
+/*Footer*/
+#main-footer
+{
+    background: #444444;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
